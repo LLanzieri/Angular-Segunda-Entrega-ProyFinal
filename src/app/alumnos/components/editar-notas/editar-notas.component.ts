@@ -59,7 +59,8 @@ export class EditarNotasComponent implements OnInit {
         nota2: new FormControl(Number(parametros.get('nota2')) || '', [Validators.required])
 
       })
-    })
+    }).unsubscribe();
+
   }
 
   editarNotas() {

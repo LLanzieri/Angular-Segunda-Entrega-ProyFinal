@@ -8,8 +8,8 @@ import { FormAgregarAlumnoComponent } from './components/form-agregar-alumno/for
 import { FormatearNombreApellidoPipe } from './pipes/formatear-nombre-apellido.pipe';
 import { ListaAlumnosComponent } from './components/lista-alumnos/lista-alumnos.component';
 import { ListaCardsComponent } from './components/lista-cards/lista-cards.component';
-import { ModuloPersonalizadoModule } from '../modulo-personalizado.module';
 import { NgModule } from '@angular/core';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +24,7 @@ import { NgModule } from '@angular/core';
   imports: [
     CommonModule,
     AlumnosRoutingModule,
-    ModuloPersonalizadoModule
+    SharedModule
   ],
   providers: [AlumnosService]
 })

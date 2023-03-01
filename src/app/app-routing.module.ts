@@ -1,7 +1,7 @@
 import { RouterModule, Routes } from '@angular/router';
 
-import { Error404Component } from './components/error404/error404.component';
-import { InicioComponent } from './components/inicio/inicio.component';
+import { Error404Component } from './core/components/error404/error404.component';
+import { InicioComponent } from './core/components/inicio/inicio.component';
 import { NgModule } from '@angular/core';
 
 const routes: Routes = [
