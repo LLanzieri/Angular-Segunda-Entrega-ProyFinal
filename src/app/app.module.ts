@@ -4,7 +4,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
-import { CoreModule } from './core/components/core.module';
+import { CoreModule } from './core/core.module';
 import { EditarAlumnoDialogComponent } from './alumnos/components/editar-alumno-dialog/editar-alumno-dialog.component';
 import { Error404Component } from './core/components/error404/error404.component';
 import { FormatoTituloDirective } from './directives/formato-titulo.directive';
